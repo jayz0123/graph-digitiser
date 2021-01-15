@@ -9,3 +9,6 @@ The basic idea of the algorithm of the 1D graphs digitiser is to open an image f
 - When completing the calibration, the programme uses the calibration factor to calculate the real-world coordinate of any pixel that the user clicks based on the calibration factor. A QVector is used to stores all the data points that the user clicks and they can also be exported as text file if it is necessary.
 
 - Additionally, there is an automatic measuring mode where the programme will automatically collect many valid points on the graph in the range set by the user.
+
+## Prerequisites
+### [`Qt`](https://www.qt.io/download)
